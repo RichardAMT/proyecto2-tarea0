@@ -1,1 +1,10 @@
  /* personal css */
+
+ #logo{
+    width: width="100px";
+    height: 60px;
+ }
+
+ #menu{
+    background-color: gray !important;
+ }
