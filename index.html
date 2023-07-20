@@ -18,7 +18,7 @@
         <script src="https://kit.fontawesome.com/562d327e55.js" crossorigin="anonymous"></script>
 
     </head>
-    <body>
+    <div>
 
         <!-- Menu y Logo -->
 
@@ -27,7 +27,7 @@
 
                 <!-- logo -->
 
-                <a class="navbar-brand" href="#"><img src="/img/logo.png" id="logo">Navbar scroll</a>
+                <a class="navbar-brand" href="#"><img src="/img/logo.png" id="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -123,24 +123,33 @@
             </div>
             <div class="carousel-inner" data-bs-interval="1">
               <div class="carousel-item active">
-                <img src="/img/pc.jpg" class="d-block w-100" alt="...">
+                <img src="/img/pc.jpg" class="d-block w-100 alto-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.<a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></p>
+                  <p>Some representative placeholder content for the first slide.</p>
+
+                  <div class="boton-comprar"><a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></div>
+
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1">
-                <img src="/img/pc2.jpg" class="d-block w-100" alt="...">
+                <img src="/img/pc2.jpg" class="d-block w-100 alto-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.<a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></p>
+                  <p>Some representative placeholder content for the second slide.</p>
+
+                  <div class="boton-comprar"><a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></div>
+
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1">
-                <img src="/img/kf.png" class="d-block w-100" alt="...">
+                <img src="/img/kf.png" class="d-block w-100 alto-img" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.<a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></p>
+                  <p>Some representative placeholder content for the third slide.</p>
+
+                  <div class="boton-comprar"><a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a></div>
+
                 </div>
               </div>
             </div>
@@ -153,7 +162,57 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+        </div>
 
+        <!-- Fin Slider (carrucel) -->
+
+        <!-- Novedades -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="novedades">
+
+            <h2 class="titulo">Novedades</h2>
+
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <a href="https://wa.me/3195934782?text=AgendarCita" target="_blank" class="btn btn-warning">Comprar</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-body-secondary">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        
         <!-- JS Bootstrap -->
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

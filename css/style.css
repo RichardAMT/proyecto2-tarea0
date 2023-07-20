@@ -29,3 +29,20 @@
 
     color: black;
 }
+
+.alto-img{
+
+   height: 650px !important;
+   padding-top: 75px !important;
+}
+
+.nav-link.active{
+
+   color: #f8f533 !important;
+   font-weight: bold !important;
+}
+
+.nav-link.active:hover{
+
+   color: #34adee !important;
+}
