@@ -1,21 +1,21 @@
  /* personal css */
 
- :root{
+:root{
 
-    --encabezado: #747474;
-    --enlace: #fff;
- }
+   --encabezado: #747474;
+   --enlace: #fff;
+}
 
- #logo{
+#logo{
 
-    width: width="100px";
-    height: 60px;
- }
+   width: width="100px";
+   height: 60px;
+}
 
- #menu{
+#menu{
 
-    background-color: var(--encabezado) !important;
- }
+   background-color: var(--encabezado) !important;
+}
 
 .nav-link{
 
@@ -45,4 +45,17 @@
 .nav-link.active:hover{
 
    color: #34adee !important;
+}
+
+/* Novedades */
+
+#novedades{
+
+   background-color: rgb(64, 64, 64);
+}
+
+#novedades .titulo{
+   width: 100%;
+   text-align: center;
+   color: #fff;
 }
