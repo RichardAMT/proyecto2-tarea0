@@ -1,9 +1,14 @@
- /* personal css */
+/* personal css */
 
 :root{
 
    --encabezado: #747474;
    --enlace: #fff;
+}
+
+body{
+
+   overflow-x: hidden;
 }
 
 #logo{
@@ -58,4 +63,15 @@
    width: 100%;
    text-align: center;
    color: #fff;
+}
+
+#videos{
+
+   background-color: #fff;
+}
+
+#videos .titulo{
+
+   width: 100%;
+   text-align: center;
 }
